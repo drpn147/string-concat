@@ -7,7 +7,7 @@ public class ConcatStringServiceImpl implements ConcatStringService {
 
 	@Override
 	public String concat(String value1, String value2) {
-		String result = value1.concat(" R.").concat(value2);
+		String result = value1.concat(" Rajendra.").concat(value2);
 		return result;
 	}
 
